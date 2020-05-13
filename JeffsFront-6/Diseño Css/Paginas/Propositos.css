@@ -1,0 +1,31 @@
+#articlePropositos { margin: 5rem 0; }
+
+#articlePropositos .contentPropositos, .contentParrafo { background-color: rgba(255, 255, 255, 0.85); }
+
+#articlePropositos h4 { 
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+#articlePropositos h2 {
+    font-weight: 800;
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+@media (min-width: 992px) {
+    #articlePropositos .contentPropositos {
+        position: relative;
+        width: 600px;
+        z-index: 100;
+        bottom: -3rem;
+        margin-top: -3rem;
+    }
+
+    #articlePropositos .contentParrafo {
+        position: relative;
+        width: 600px;
+        top: -3rem;
+        margin-bottom: -3rem;
+    }
+}

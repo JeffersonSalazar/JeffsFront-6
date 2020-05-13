@@ -1,0 +1,15 @@
+/* Estilos para Pantalla Responsive y Full Screem */
+#portada { margin: 5rem 0; }
+  
+#portada h4 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2383EB;
+}
+  
+#portada h2 {
+  font-size: 5rem;
+  line-height: 3rem;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}

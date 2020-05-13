@@ -1,0 +1,14 @@
+/* Estilos para Pantalla Responsive y Full Screem */
+body {
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../Imagenes/fondo-min-6.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+  background-color: lightslategray;
+}
+    
+body p { 
+  line-height: 1.75;
+  font-size: 1.1rem;
+  font-family: 'Times New Roman', Times, serif;
+}

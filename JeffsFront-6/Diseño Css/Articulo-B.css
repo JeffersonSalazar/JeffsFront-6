@@ -1,0 +1,21 @@
+/* Estilos para Pantalla Responsive y Full Screem */
+#article-B {
+    padding: 5rem 0;
+    margin: 5rem 0;
+    background-color: #2383EB;
+}
+
+#article-B .bgEstyle { background-color: rgba(255, 255, 255, 0.85); }
+
+#article-B h4 { 
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+#article-B h2 { 
+    font-size: 4rem;
+    font-weight: 800; 
+    line-height: 1;
+    font-family: 'Indie Flower', cursive; 
+}
+

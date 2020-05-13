@@ -1,0 +1,52 @@
+/* Estilos para Pantalla Responsive */
+#propos-A { margin: 5rem 0; }
+
+#propos-A .contentEstilo { background-color: rgba(255, 255, 255, 0.85); }
+
+#propos-A h4 { 
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+#propos-A h2 {
+    font-weight: 800;
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+#propos-A .divEdit { color: white; }
+
+#propos-A .divEdit a:hover { color: white; }
+
+#propos-A .btnEstilo {
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 1.5rem 2rem;
+    background-color: #2383EB;
+}
+
+#propos-A .btnEstilo:hover, .btnEstilo:focus, .btnEstilo:active {
+    background-color: rgb(29, 112, 202);
+}
+
+/* Estilos para Pantalla Full Screem */
+@media (min-width: 992px) {
+    #propos-A .imgEstilo {
+        width: 75%;
+        float: left;
+    }
+
+    #propos-A .contentEstilo {
+        position: absolute;
+        right: 100px;
+        width: 38%;
+        margin-top: 5rem;
+    }
+
+    #propos-A .divEdit {
+        position: absolute;
+        left: 0;
+        bottom: -2rem;
+        width: 100%;
+    }
+}
